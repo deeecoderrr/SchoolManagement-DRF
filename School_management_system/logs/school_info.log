@@ -1,0 +1,588 @@
+INFO:2022-08-24 20:29:29,190:basehttp:log_message:187:"GET / HTTP/1.1" 200 3109
+INFO:2022-08-24 20:29:29,234:basehttp:log_message:187:"GET /static/school/base.js HTTP/1.1" 304 0
+INFO:2022-08-24 20:29:29,234:basehttp:log_message:187:"GET /static/school/base.css HTTP/1.1" 304 0
+INFO:2022-08-24 20:29:36,172:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-24 20:29:36,180:communicator:list_student:36:<Response [200]>
+INFO:2022-08-24 20:29:36,196:basehttp:log_message:187:"GET /student/ HTTP/1.1" 200 3316
+INFO:2022-08-24 20:29:38,779:basehttp:log_message:187:"GET /new-student/ HTTP/1.1" 200 6768
+INFO:2022-08-24 20:29:55,318:basehttp:log_message:187:"GET /admin HTTP/1.1" 301 0
+INFO:2022-08-24 20:29:55,333:basehttp:log_message:187:"GET /admin/ HTTP/1.1" 302 0
+INFO:2022-08-24 20:29:55,359:basehttp:log_message:187:"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+INFO:2022-08-24 20:29:55,587:basehttp:log_message:187:"GET /static/admin/css/base.css HTTP/1.1" 200 20344
+INFO:2022-08-24 20:29:55,589:basehttp:log_message:187:"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO:2022-08-24 20:29:55,589:basehttp:log_message:187:"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796
+INFO:2022-08-24 20:29:55,597:basehttp:log_message:187:"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619
+INFO:2022-08-24 20:29:55,597:basehttp:log_message:187:"GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO:2022-08-24 20:29:55,597:basehttp:log_message:187:"GET /static/admin/css/responsive.css HTTP/1.1" 200 18854
+INFO:2022-08-24 20:29:55,597:basehttp:log_message:187:"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+INFO:2022-08-24 20:29:55,623:basehttp:log_message:187:"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO:2022-08-24 20:29:55,623:basehttp:log_message:187:"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO:2022-08-24 20:30:02,454:basehttp:log_message:187:"GET / HTTP/1.1" 302 0
+INFO:2022-08-24 20:30:02,470:basehttp:log_message:187:"GET /login/?next=/ HTTP/1.1" 200 4031
+INFO:2022-08-24 20:30:02,486:basehttp:log_message:187:"GET /static/school/base.js HTTP/1.1" 200 354
+INFO:2022-08-24 20:30:02,486:basehttp:log_message:187:"GET /static/school/base.css HTTP/1.1" 200 1178
+INFO:2022-08-24 20:30:08,391:basehttp:log_message:187:"POST /login/?next=/ HTTP/1.1" 302 0
+INFO:2022-08-24 20:30:08,407:basehttp:log_message:187:"GET / HTTP/1.1" 200 3109
+INFO:2022-08-24 20:30:08,423:basehttp:log_message:187:"GET /static/school/default_pic.jpg HTTP/1.1" 200 32145
+INFO:2022-08-24 20:30:44,376:basehttp:log_message:187:"GET /logout/ HTTP/1.1" 302 0
+INFO:2022-08-24 20:30:44,385:basehttp:log_message:187:"GET /login/ HTTP/1.1" 200 4031
+INFO:2022-08-24 20:30:46,575:basehttp:log_message:187:"GET /register/ HTTP/1.1" 200 4524
+INFO:2022-08-24 20:30:52,797:basehttp:log_message:187:"GET /admin/ HTTP/1.1" 302 0
+INFO:2022-08-24 20:30:52,809:basehttp:log_message:187:"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+INFO:2022-08-24 20:30:56,839:basehttp:log_message:187:"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO:2022-08-24 20:30:56,872:basehttp:log_message:187:"GET /admin/ HTTP/1.1" 200 5764
+INFO:2022-08-24 20:30:56,889:basehttp:log_message:187:"GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO:2022-08-24 20:30:56,905:basehttp:log_message:187:"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO:2022-08-24 20:30:56,905:basehttp:log_message:187:"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO:2022-08-24 20:30:56,905:basehttp:log_message:187:"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO:2022-08-24 20:30:56,921:basehttp:log_message:187:"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO:2022-08-24 20:30:58,529:basehttp:log_message:187:"GET /admin/auth/user/ HTTP/1.1" 200 9256
+INFO:2022-08-24 20:30:58,545:basehttp:log_message:187:"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO:2022-08-24 20:30:58,553:basehttp:log_message:187:"GET /static/admin/css/changelists.css HTTP/1.1" 200 6395
+INFO:2022-08-24 20:30:58,553:basehttp:log_message:187:"GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO:2022-08-24 20:30:58,561:basehttp:log_message:187:"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8919
+INFO:2022-08-24 20:30:58,561:basehttp:log_message:187:"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO:2022-08-24 20:30:58,561:basehttp:log_message:187:"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO:2022-08-24 20:30:58,561:basehttp:log_message:187:"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO:2022-08-24 20:30:58,570:basehttp:log_message:187:"GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO:2022-08-24 20:30:58,570:basehttp:log_message:187:"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+INFO:2022-08-24 20:30:58,570:basehttp:log_message:187:"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO:2022-08-24 20:30:58,578:basehttp:log_message:187:"GET /static/admin/js/filters.js HTTP/1.1" 200 966
+INFO:2022-08-24 20:30:58,578:basehttp:log_message:187:"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO:2022-08-24 20:30:58,594:basehttp:log_message:187:"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO:2022-08-24 20:30:58,610:basehttp:log_message:187:"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO:2022-08-24 20:30:58,618:basehttp:log_message:187:"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO:2022-08-24 20:30:58,618:basehttp:log_message:187:"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO:2022-08-24 20:31:05,292:basehttp:log_message:187:"POST /admin/auth/user/ HTTP/1.1" 200 5060
+INFO:2022-08-24 20:31:05,317:basehttp:log_message:187:"GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO:2022-08-24 20:31:06,641:basehttp:log_message:187:"POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO:2022-08-24 20:31:06,674:basehttp:log_message:187:"GET /admin/auth/user/ HTTP/1.1" 200 8575
+INFO:2022-08-24 20:31:06,716:basehttp:log_message:187:"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO:2022-08-24 20:31:19,302:basehttp:log_message:187:"GET / HTTP/1.1" 302 0
+INFO:2022-08-24 20:31:19,319:basehttp:log_message:187:"GET /login/?next=/ HTTP/1.1" 200 4031
+INFO:2022-08-24 20:31:19,427:basehttp:log_message:187:"GET /static/school/base.js HTTP/1.1" 200 354
+INFO:2022-08-24 20:31:19,428:basehttp:log_message:187:"GET /static/school/base.css HTTP/1.1" 200 1178
+INFO:2022-08-24 20:31:22,409:basehttp:log_message:187:"GET /register/ HTTP/1.1" 200 4524
+INFO:2022-08-24 20:31:49,734:trigger_email:trigger_email:32:activation email response: 1
+INFO:2022-08-24 20:31:49,734:basehttp:log_message:187:"POST /register/ HTTP/1.1" 302 0
+INFO:2022-08-24 20:31:49,751:basehttp:log_message:187:"GET /login/ HTTP/1.1" 200 4287
+INFO:2022-08-24 20:32:00,695:basehttp:log_message:187:"POST /login/ HTTP/1.1" 200 4176
+INFO:2022-08-24 20:32:50,730:basehttp:log_message:187:"GET /account-activation/MTM/baoh0v-bf5839069227614bd5438dff3fc6a538 HTTP/1.1" 200 70
+INFO:2022-08-24 20:32:59,166:basehttp:log_message:187:"POST /login/ HTTP/1.1" 302 0
+INFO:2022-08-24 20:32:59,174:basehttp:log_message:187:"GET / HTTP/1.1" 200 3109
+INFO:2022-08-24 20:32:59,191:basehttp:log_message:187:"GET /static/school/default_pic.jpg HTTP/1.1" 200 32145
+INFO:2022-08-24 20:33:02,953:basehttp:log_message:187:"GET /logout/ HTTP/1.1" 302 0
+INFO:2022-08-24 20:33:02,960:basehttp:log_message:187:"GET /login/ HTTP/1.1" 200 4031
+INFO:2022-08-24 20:33:06,386:basehttp:log_message:187:"GET /password-reset/ HTTP/1.1" 200 3396
+ERROR:2022-08-24 20:33:29,032:log:log_response:241:Internal Server Error: /password-reset/
+Traceback (most recent call last):
+  File "C:\Users\Gokul\School\.venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Gokul\School\.venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Gokul\School\.venv\lib\site-packages\django\views\generic\base.py", line 103, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Gokul\School\.venv\lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\Gokul\School\.venv\lib\site-packages\django\utils\decorators.py", line 133, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\Gokul\School\.venv\lib\site-packages\django\contrib\auth\views.py", line 242, in dispatch
+    return super().dispatch(*args, **kwargs)
+  File "C:\Users\Gokul\School\.venv\lib\site-packages\django\views\generic\base.py", line 142, in dispatch
+    return handler(request, *args, **kwargs)
+  File "C:\Users\Gokul\School\.venv\lib\site-packages\django\views\generic\edit.py", line 153, in post
+    return self.form_valid(form)
+  File "C:\Users\Gokul\School\.venv\lib\site-packages\django\contrib\auth\views.py", line 255, in form_valid
+    form.save(**opts)
+  File "C:\Users\Gokul\School\.venv\lib\site-packages\django\contrib\auth\forms.py", line 343, in save
+    self.send_mail(
+  File "C:\Users\Gokul\School\.venv\lib\site-packages\django\contrib\auth\forms.py", line 284, in send_mail
+    email_message.send()
+  File "C:\Users\Gokul\School\.venv\lib\site-packages\django\core\mail\message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Users\Gokul\School\.venv\lib\site-packages\django\core\mail\backends\smtp.py", line 124, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\Gokul\School\.venv\lib\site-packages\django\core\mail\backends\smtp.py", line 80, in open
+    self.connection = self.connection_class(
+  File "C:\Users\Windows\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 255, in __init__
+    (code, msg) = self.connect(host, port)
+  File "C:\Users\Windows\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 341, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\Windows\AppData\Local\Programs\Python\Python310\lib\smtplib.py", line 312, in _get_socket
+    return socket.create_connection((host, port), timeout,
+  File "C:\Users\Windows\AppData\Local\Programs\Python\Python310\lib\socket.py", line 824, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "C:\Users\Windows\AppData\Local\Programs\Python\Python310\lib\socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+ERROR:2022-08-24 20:33:29,064:basehttp:log_message:187:"POST /password-reset/ HTTP/1.1" 500 142330
+INFO:2022-08-24 20:34:46,085:basehttp:log_message:187:"GET /password-reset/ HTTP/1.1" 200 3396
+INFO:2022-08-24 20:34:55,735:basehttp:log_message:187:"POST /password-reset/ HTTP/1.1" 302 0
+INFO:2022-08-24 20:34:55,743:basehttp:log_message:187:"GET /password-reset/done/ HTTP/1.1" 200 2760
+INFO:2022-08-24 20:35:17,860:basehttp:log_message:187:"GET /password-reset-confirm/MTM/baoh62-11ea3bb8af86e4cae009e1c8a40efbf8 HTTP/1.1" 302 0
+INFO:2022-08-24 20:35:17,871:basehttp:log_message:187:"GET /password-reset-confirm/MTM/set-password HTTP/1.1" 200 4144
+INFO:2022-08-24 20:35:17,971:basehttp:log_message:187:"GET /static/school/base.js HTTP/1.1" 200 354
+INFO:2022-08-24 20:35:17,976:basehttp:log_message:187:"GET /static/school/base.css HTTP/1.1" 200 1178
+INFO:2022-08-24 20:35:30,655:basehttp:log_message:187:"POST /password-reset-confirm/MTM/set-password HTTP/1.1" 302 0
+INFO:2022-08-24 20:35:30,663:basehttp:log_message:187:"GET /password-reset-complete/ HTTP/1.1" 200 2756
+INFO:2022-08-24 20:35:36,264:basehttp:log_message:187:"GET / HTTP/1.1" 302 0
+INFO:2022-08-24 20:35:36,269:basehttp:log_message:187:"GET /login/?next=/ HTTP/1.1" 200 4031
+INFO:2022-08-24 20:35:43,395:basehttp:log_message:187:"POST /login/?next=/ HTTP/1.1" 302 0
+INFO:2022-08-24 20:35:43,403:basehttp:log_message:187:"GET / HTTP/1.1" 200 3109
+INFO:2022-08-24 20:35:54,226:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-24 20:35:54,237:communicator:list_student:36:<Response [200]>
+INFO:2022-08-24 20:35:54,237:basehttp:log_message:187:"GET /student/ HTTP/1.1" 200 3316
+INFO:2022-08-24 20:36:21,326:basehttp:log_message:187:"GET /student/ HTTP/1.1" 302 0
+INFO:2022-08-24 20:36:21,339:basehttp:log_message:187:"GET /login/?next=/student/ HTTP/1.1" 200 4031
+INFO:2022-08-24 20:36:29,161:basehttp:log_message:187:"POST /login/?next=/student/ HTTP/1.1" 302 0
+INFO:2022-08-24 20:36:29,314:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-24 20:36:29,320:communicator:list_student:36:<Response [200]>
+INFO:2022-08-24 20:36:29,320:basehttp:log_message:187:"GET /student/ HTTP/1.1" 200 2823
+INFO:2022-08-24 20:36:33,672:basehttp:log_message:187:"GET /new-student/ HTTP/1.1" 200 6768
+INFO:2022-08-24 20:37:18,338:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-24 20:37:18,371:communicator:create_student:99:<Response [201]>
+INFO:2022-08-24 20:37:18,371:basehttp:log_message:187:"POST /new-student/ HTTP/1.1" 302 0
+INFO:2022-08-24 20:37:18,566:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-24 20:37:18,753:communicator:get_student:55:<Response [200]>
+INFO:2022-08-24 20:37:18,761:basehttp:log_message:187:"GET /student/32/ HTTP/1.1" 200 7397
+INFO:2022-08-24 20:37:23,001:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-24 20:37:23,184:communicator:get_student:55:<Response [200]>
+INFO:2022-08-24 20:37:23,200:basehttp:log_message:187:"GET /student/32/edit/ HTTP/1.1" 200 6974
+INFO:2022-08-24 20:37:27,951:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-24 20:37:27,968:communicator:edit_student:121:<Response [200]>
+INFO:2022-08-24 20:37:27,968:basehttp:log_message:187:"POST /student/32/edit/ HTTP/1.1" 302 0
+INFO:2022-08-24 20:37:28,133:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-24 20:37:28,296:communicator:get_student:55:<Response [200]>
+INFO:2022-08-24 20:37:28,296:basehttp:log_message:187:"GET /student/32/ HTTP/1.1" 200 7397
+INFO:2022-08-24 20:37:30,534:communicator:get_token:141:<Response [200]>
+INFO:2022-08-24 20:37:30,553:communicator:list_teacher:157:<Response [200]>
+INFO:2022-08-24 20:37:30,555:basehttp:log_message:187:"GET /teacher/ HTTP/1.1" 200 3313
+INFO:2022-08-24 20:37:52,752:basehttp:log_message:187:"GET /teacher/ HTTP/1.1" 302 0
+INFO:2022-08-24 20:37:52,763:basehttp:log_message:187:"GET /login/?next=/teacher/ HTTP/1.1" 200 4031
+INFO:2022-08-24 20:37:57,261:basehttp:log_message:187:"POST /login/?next=/teacher/ HTTP/1.1" 302 0
+INFO:2022-08-24 20:37:57,423:communicator:get_token:141:<Response [200]>
+INFO:2022-08-24 20:37:57,428:communicator:list_teacher:157:<Response [200]>
+INFO:2022-08-24 20:37:57,428:basehttp:log_message:187:"GET /teacher/ HTTP/1.1" 200 2822
+INFO:2022-08-24 20:37:59,559:basehttp:log_message:187:"GET /new-teacher/ HTTP/1.1" 200 6115
+INFO:2022-08-24 20:38:28,053:communicator:get_token:141:<Response [200]>
+INFO:2022-08-24 20:38:28,067:communicator:create_teacher:221:<Response [201]>
+INFO:2022-08-24 20:38:28,073:basehttp:log_message:187:"POST /new-teacher/ HTTP/1.1" 302 0
+INFO:2022-08-24 20:38:28,234:communicator:get_token:141:<Response [200]>
+INFO:2022-08-24 20:38:28,242:communicator:get_teacher:176:<Response [200]>
+INFO:2022-08-24 20:38:28,250:basehttp:log_message:187:"GET /teacher/9/ HTTP/1.1" 200 6987
+INFO:2022-08-24 20:38:44,737:communicator:get_token:141:<Response [200]>
+INFO:2022-08-24 20:38:44,747:communicator:list_teacher:157:<Response [200]>
+INFO:2022-08-24 20:38:44,747:basehttp:log_message:187:"GET /teacher/ HTTP/1.1" 200 3313
+INFO:2022-08-24 20:38:49,798:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-24 20:38:50,009:communicator:get_student:55:<Response [200]>
+INFO:2022-08-24 20:38:50,025:basehttp:log_message:187:"GET /student/32/edit/ HTTP/1.1" 200 6974
+INFO:2022-08-24 20:38:54,128:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-24 20:38:54,152:communicator:edit_student:121:<Response [200]>
+INFO:2022-08-24 20:38:54,152:basehttp:log_message:187:"POST /student/32/edit/ HTTP/1.1" 302 0
+INFO:2022-08-24 20:38:54,354:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-24 20:38:54,567:communicator:get_student:55:<Response [200]>
+INFO:2022-08-24 20:38:54,567:basehttp:log_message:187:"GET /student/32/ HTTP/1.1" 200 7398
+INFO:2022-08-24 20:38:59,081:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-24 20:38:59,095:communicator:delete_student:76:<Response [204]>
+INFO:2022-08-24 20:38:59,095:basehttp:log_message:187:"GET /student/32/delete/ HTTP/1.1" 302 0
+INFO:2022-08-24 20:38:59,253:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-24 20:38:59,261:communicator:list_student:36:<Response [200]>
+INFO:2022-08-24 20:38:59,261:basehttp:log_message:187:"GET /student/ HTTP/1.1" 200 3030
+INFO:2022-08-24 20:39:03,500:communicator:get_token:141:<Response [200]>
+INFO:2022-08-24 20:39:03,508:communicator:get_teacher:176:<Response [200]>
+INFO:2022-08-24 20:39:03,508:basehttp:log_message:187:"GET /teacher/9/ HTTP/1.1" 200 6773
+INFO:2022-08-24 20:39:08,145:communicator:get_token:141:<Response [200]>
+INFO:2022-08-24 20:39:08,161:communicator:delete_teacher:198:<Response [204]>
+INFO:2022-08-24 20:39:08,161:basehttp:log_message:187:"GET /teacher/9/delete/ HTTP/1.1" 302 0
+INFO:2022-08-24 20:39:08,365:communicator:get_token:141:<Response [200]>
+INFO:2022-08-24 20:39:08,367:communicator:list_teacher:157:<Response [200]>
+INFO:2022-08-24 20:39:08,373:basehttp:log_message:187:"GET /teacher/ HTTP/1.1" 200 3029
+INFO:2022-08-24 20:51:51,009:autoreload:run_with_reloader:677:Watching for file changes with StatReloader
+INFO:2022-08-25 02:14:30,659:autoreload:run_with_reloader:677:Watching for file changes with StatReloader
+INFO:2022-08-25 02:14:43,072:basehttp:log_message:187:"GET / HTTP/1.1" 302 0
+INFO:2022-08-25 02:14:43,121:basehttp:log_message:187:"GET /login/?next=/ HTTP/1.1" 200 4031
+INFO:2022-08-25 02:14:43,340:basehttp:log_message:187:"GET /static/school/base.js HTTP/1.1" 200 354
+INFO:2022-08-25 02:14:43,349:basehttp:log_message:187:"GET /static/school/base.css HTTP/1.1" 200 1178
+WARNING:2022-08-25 02:14:44,233:log:log_response:241:Not Found: /favicon.ico
+WARNING:2022-08-25 02:14:44,234:basehttp:log_message:187:"GET /favicon.ico HTTP/1.1" 404 5690
+INFO:2022-08-25 02:14:49,167:basehttp:log_message:187:"GET /student/ HTTP/1.1" 302 0
+INFO:2022-08-25 02:14:49,175:basehttp:log_message:187:"GET /login/?next=/student/ HTTP/1.1" 200 4031
+INFO:2022-08-25 02:14:50,874:basehttp:log_message:187:"GET /teacher/ HTTP/1.1" 302 0
+INFO:2022-08-25 02:14:50,883:basehttp:log_message:187:"GET /login/?next=/teacher/ HTTP/1.1" 200 4031
+INFO:2022-08-25 02:14:51,791:basehttp:log_message:187:"GET /student/ HTTP/1.1" 302 0
+INFO:2022-08-25 02:14:51,802:basehttp:log_message:187:"GET /login/?next=/student/ HTTP/1.1" 200 4031
+INFO:2022-08-25 02:14:52,191:basehttp:log_message:187:"GET / HTTP/1.1" 302 0
+INFO:2022-08-25 02:14:52,200:basehttp:log_message:187:"GET /login/?next=/ HTTP/1.1" 200 4031
+INFO:2022-08-25 02:15:15,955:basehttp:log_message:187:"GET /student/ HTTP/1.1" 302 0
+INFO:2022-08-25 02:15:15,964:basehttp:log_message:187:"GET /login/?next=/student/ HTTP/1.1" 200 4031
+INFO:2022-08-25 02:15:16,897:basehttp:log_message:187:"GET /teacher/ HTTP/1.1" 302 0
+INFO:2022-08-25 02:15:16,906:basehttp:log_message:187:"GET /login/?next=/teacher/ HTTP/1.1" 200 4031
+INFO:2022-08-25 02:15:17,512:basehttp:log_message:187:"GET /student/ HTTP/1.1" 302 0
+INFO:2022-08-25 02:15:17,520:basehttp:log_message:187:"GET /login/?next=/student/ HTTP/1.1" 200 4031
+INFO:2022-08-25 02:15:18,029:basehttp:log_message:187:"GET / HTTP/1.1" 302 0
+INFO:2022-08-25 02:15:18,037:basehttp:log_message:187:"GET /login/?next=/ HTTP/1.1" 200 4031
+INFO:2022-08-25 02:15:29,495:basehttp:log_message:187:"POST /login/?next=/ HTTP/1.1" 200 4180
+INFO:2022-08-25 02:15:31,130:basehttp:log_message:187:"GET /register/ HTTP/1.1" 200 4524
+ERROR:2022-08-25 02:15:46,787:views:post:46:Erros in user registration form: <ul class="errorlist"><li>password2<ul class="errorlist"><li>This password is too short. It must contain at least 8 characters.</li><li>This password is too common.</li></ul></li></ul>
+INFO:2022-08-25 02:15:46,796:basehttp:log_message:187:"POST /register/ HTTP/1.1" 200 4827
+ERROR:2022-08-25 02:16:06,156:views:post:46:Erros in user registration form: <ul class="errorlist"><li>password2<ul class="errorlist"><li>The two password fields didn’t match.</li></ul></li></ul>
+INFO:2022-08-25 02:16:06,159:basehttp:log_message:187:"POST /register/ HTTP/1.1" 200 4696
+ERROR:2022-08-25 02:16:21,958:trigger_email:trigger_email:35:(530, b'5.7.0 Authentication Required. Learn more at\n5.7.0  https://support.google.com/mail/?p=WantAuthError 36-20020a630a24000000b0042ad3214a88sm4858656pgk.74 - gsmtp', 'gokulnath634@gmail.com')
+Traceback (most recent call last):
+  File "F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\school\trigger_email.py", line 24, in trigger_email
+    response = send_mail(
+  File "F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\.venv_school\lib\site-packages\django\core\mail\__init__.py", line 87, in send_mail
+    return mail.send()
+  File "F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\.venv_school\lib\site-packages\django\core\mail\message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\.venv_school\lib\site-packages\django\core\mail\backends\smtp.py", line 131, in send_messages
+    sent = self._send(message)
+  File "F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\.venv_school\lib\site-packages\django\core\mail\backends\smtp.py", line 149, in _send
+    self.connection.sendmail(
+  File "C:\Program Files\Python310\lib\smtplib.py", line 887, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (530, b'5.7.0 Authentication Required. Learn more at\n5.7.0  https://support.google.com/mail/?p=WantAuthError 36-20020a630a24000000b0042ad3214a88sm4858656pgk.74 - gsmtp', 'gokulnath634@gmail.com')
+ERROR:2022-08-25 02:16:22,015:log:log_response:241:Internal Server Error: /register/
+Traceback (most recent call last):
+  File "F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\.venv_school\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\.venv_school\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\.venv_school\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view school.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR:2022-08-25 02:16:22,017:basehttp:log_message:187:"POST /register/ HTTP/1.1" 500 69552
+INFO:2022-08-25 02:16:31,569:basehttp:log_message:187:"GET / HTTP/1.1" 302 0
+INFO:2022-08-25 02:16:31,578:basehttp:log_message:187:"GET /login/?next=/ HTTP/1.1" 200 4270
+INFO:2022-08-25 02:16:42,790:basehttp:log_message:187:"GET /admin HTTP/1.1" 301 0
+INFO:2022-08-25 02:16:42,797:basehttp:log_message:187:"GET /admin/ HTTP/1.1" 302 0
+INFO:2022-08-25 02:16:42,812:basehttp:log_message:187:"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+INFO:2022-08-25 02:16:42,843:basehttp:log_message:187:"GET /static/admin/css/dark_mode.css HTTP/1.1" 200 796
+INFO:2022-08-25 02:16:42,844:basehttp:log_message:187:"GET /static/admin/css/base.css HTTP/1.1" 200 20344
+INFO:2022-08-25 02:16:42,846:basehttp:log_message:187:"GET /static/admin/css/login.css HTTP/1.1" 200 958
+INFO:2022-08-25 02:16:42,846:basehttp:log_message:187:"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2619
+INFO:2022-08-25 02:16:42,846:basehttp:log_message:187:"GET /static/admin/css/responsive.css HTTP/1.1" 200 18854
+INFO:2022-08-25 02:16:42,853:basehttp:log_message:187:"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3763
+INFO:2022-08-25 02:16:42,857:basehttp:log_message:187:"GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+INFO:2022-08-25 02:16:42,935:basehttp:log_message:187:"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 85876
+INFO:2022-08-25 02:16:42,935:basehttp:log_message:187:"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 85692
+INFO:2022-08-25 02:21:59,735:basehttp:log_message:187:"POST /admin/login/?next=/admin/ HTTP/1.1" 200 2379
+INFO:2022-08-25 02:21:59,751:basehttp:log_message:187:"GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO:2022-08-25 02:21:59,755:basehttp:log_message:187:"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO:2022-08-25 02:21:59,755:basehttp:log_message:187:"GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO:2022-08-25 02:21:59,756:basehttp:log_message:187:"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO:2022-08-25 02:21:59,756:basehttp:log_message:187:"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO:2022-08-25 02:21:59,790:basehttp:log_message:187:"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO:2022-08-25 02:21:59,791:basehttp:log_message:187:"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO:2022-08-25 02:21:59,800:basehttp:log_message:187:"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO:2022-08-25 02:21:59,800:basehttp:log_message:187:"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO:2022-08-25 02:21:59,859:basehttp:log_message:187:"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 86184
+INFO:2022-08-25 02:22:04,457:basehttp:log_message:187:"POST /admin/login/?next=/admin/ HTTP/1.1" 200 2379
+INFO:2022-08-25 02:24:03,948:basehttp:log_message:187:"GET / HTTP/1.1" 302 0
+INFO:2022-08-25 02:24:03,957:basehttp:log_message:187:"GET /login/?next=/ HTTP/1.1" 200 4031
+INFO:2022-08-25 02:24:06,205:basehttp:log_message:187:"GET /register/ HTTP/1.1" 200 4524
+ERROR:2022-08-25 02:24:31,008:views:post:46:Erros in user registration form: <ul class="errorlist"><li>username<ul class="errorlist"><li>Ensure this value has at least 5 characters (it has 4).</li></ul></li></ul>
+INFO:2022-08-25 02:24:31,011:basehttp:log_message:187:"POST /register/ HTTP/1.1" 200 4706
+ERROR:2022-08-25 02:24:55,384:validators:username_validation:14:Invalid username: root_123
+ERROR:2022-08-25 02:24:55,385:views:post:46:Erros in user registration form: <ul class="errorlist"><li>username<ul class="errorlist"><li>Enter a valid username. This value may contain only letters and numbers</li></ul></li></ul>
+INFO:2022-08-25 02:24:55,389:basehttp:log_message:187:"POST /register/ HTTP/1.1" 200 4726
+ERROR:2022-08-25 02:25:08,780:views:post:46:Erros in user registration form: <ul class="errorlist"><li>password2<ul class="errorlist"><li>The password is too similar to the username.</li></ul></li></ul>
+INFO:2022-08-25 02:25:08,784:basehttp:log_message:187:"POST /register/ HTTP/1.1" 200 4699
+ERROR:2022-08-25 02:26:04,978:trigger_email:trigger_email:35:(530, b'5.7.0 Authentication Required. Learn more at\n5.7.0  https://support.google.com/mail/?p=WantAuthError q5-20020a170902dac500b0017154ae6265sm13220244plx.211 - gsmtp', 'gokulnath634@gmail.com')
+Traceback (most recent call last):
+  File "F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\school\trigger_email.py", line 24, in trigger_email
+    response = send_mail(
+  File "F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\.venv_school\lib\site-packages\django\core\mail\__init__.py", line 87, in send_mail
+    return mail.send()
+  File "F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\.venv_school\lib\site-packages\django\core\mail\message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\.venv_school\lib\site-packages\django\core\mail\backends\smtp.py", line 131, in send_messages
+    sent = self._send(message)
+  File "F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\.venv_school\lib\site-packages\django\core\mail\backends\smtp.py", line 149, in _send
+    self.connection.sendmail(
+  File "C:\Program Files\Python310\lib\smtplib.py", line 887, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (530, b'5.7.0 Authentication Required. Learn more at\n5.7.0  https://support.google.com/mail/?p=WantAuthError q5-20020a170902dac500b0017154ae6265sm13220244plx.211 - gsmtp', 'gokulnath634@gmail.com')
+ERROR:2022-08-25 02:26:05,012:log:log_response:241:Internal Server Error: /register/
+Traceback (most recent call last):
+  File "F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\.venv_school\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\.venv_school\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\.venv_school\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view school.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR:2022-08-25 02:26:05,013:basehttp:log_message:187:"POST /register/ HTTP/1.1" 500 69551
+INFO:2022-08-25 02:28:12,137:autoreload:trigger_reload:266:F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\School_management_system\settings.py changed, reloading.
+INFO:2022-08-25 02:28:12,904:autoreload:run_with_reloader:677:Watching for file changes with StatReloader
+INFO:2022-08-25 02:28:17,203:basehttp:log_message:187:"GET /register/ HTTP/1.1" 200 4763
+ERROR:2022-08-25 02:28:45,103:trigger_email:trigger_email:35:(530, b'5.7.0 Authentication Required. Learn more at\n5.7.0  https://support.google.com/mail/?p=WantAuthError w189-20020a6262c6000000b005363bc65bafsm10037658pfb.57 - gsmtp', 'deecoderr@gmail.com')
+Traceback (most recent call last):
+  File "F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\school\trigger_email.py", line 24, in trigger_email
+    response = send_mail(
+  File "F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\.venv_school\lib\site-packages\django\core\mail\__init__.py", line 87, in send_mail
+    return mail.send()
+  File "F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\.venv_school\lib\site-packages\django\core\mail\message.py", line 298, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\.venv_school\lib\site-packages\django\core\mail\backends\smtp.py", line 131, in send_messages
+    sent = self._send(message)
+  File "F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\.venv_school\lib\site-packages\django\core\mail\backends\smtp.py", line 149, in _send
+    self.connection.sendmail(
+  File "C:\Program Files\Python310\lib\smtplib.py", line 887, in sendmail
+    raise SMTPSenderRefused(code, resp, from_addr)
+smtplib.SMTPSenderRefused: (530, b'5.7.0 Authentication Required. Learn more at\n5.7.0  https://support.google.com/mail/?p=WantAuthError w189-20020a6262c6000000b005363bc65bafsm10037658pfb.57 - gsmtp', 'deecoderr@gmail.com')
+ERROR:2022-08-25 02:28:45,143:log:log_response:241:Internal Server Error: /register/
+Traceback (most recent call last):
+  File "F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\.venv_school\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\.venv_school\lib\site-packages\django\core\handlers\base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\.venv_school\lib\site-packages\django\core\handlers\base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view school.views.view didn't return an HttpResponse object. It returned None instead.
+ERROR:2022-08-25 02:28:45,146:basehttp:log_message:187:"POST /register/ HTTP/1.1" 500 69548
+INFO:2022-08-25 02:28:49,617:basehttp:log_message:187:"GET /register/ HTTP/1.1" 200 4763
+INFO:2022-08-25 02:29:53,982:autoreload:run_with_reloader:677:Watching for file changes with StatReloader
+INFO:2022-08-25 02:30:03,804:basehttp:log_message:187:"GET / HTTP/1.1" 302 0
+INFO:2022-08-25 02:30:03,841:basehttp:log_message:187:"GET /login/?next=/ HTTP/1.1" 200 4031
+INFO:2022-08-25 02:30:12,024:basehttp:log_message:187:"POST /login/?next=/ HTTP/1.1" 302 0
+INFO:2022-08-25 02:30:12,037:basehttp:log_message:187:"GET / HTTP/1.1" 200 3109
+INFO:2022-08-25 02:30:12,223:basehttp:log_message:187:"GET /static/school/default_pic.jpg HTTP/1.1" 200 32145
+INFO:2022-08-25 02:30:15,919:communicator:get_token:141:<Response [200]>
+INFO:2022-08-25 02:30:15,925:communicator:list_teacher:157:<Response [200]>
+INFO:2022-08-25 02:30:15,938:basehttp:log_message:187:"GET /teacher/ HTTP/1.1" 200 2822
+INFO:2022-08-25 02:30:16,951:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-25 02:30:16,957:communicator:list_student:36:<Response [200]>
+INFO:2022-08-25 02:30:16,971:basehttp:log_message:187:"GET /student/ HTTP/1.1" 200 2823
+INFO:2022-08-25 02:30:18,798:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-25 02:30:18,803:communicator:list_student:36:<Response [200]>
+INFO:2022-08-25 02:30:18,805:basehttp:log_message:187:"GET /student/ HTTP/1.1" 200 2823
+INFO:2022-08-25 02:30:19,943:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-25 02:30:19,949:communicator:list_student:36:<Response [200]>
+INFO:2022-08-25 02:30:19,950:basehttp:log_message:187:"GET /student/ HTTP/1.1" 200 2823
+INFO:2022-08-25 02:30:22,182:basehttp:log_message:187:"GET / HTTP/1.1" 200 3109
+INFO:2022-08-25 02:30:23,727:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-25 02:30:23,733:communicator:list_student:36:<Response [200]>
+INFO:2022-08-25 02:30:23,734:basehttp:log_message:187:"GET /student/ HTTP/1.1" 200 2823
+INFO:2022-08-25 02:30:25,936:communicator:get_token:141:<Response [200]>
+INFO:2022-08-25 02:30:25,942:communicator:list_teacher:157:<Response [200]>
+INFO:2022-08-25 02:30:25,944:basehttp:log_message:187:"GET /teacher/ HTTP/1.1" 200 2822
+INFO:2022-08-25 02:30:27,859:basehttp:log_message:187:"GET /new-teacher/ HTTP/1.1" 200 6115
+INFO:2022-08-25 02:31:42,181:communicator:get_token:141:<Response [200]>
+INFO:2022-08-25 02:31:42,314:communicator:create_teacher:221:<Response [201]>
+INFO:2022-08-25 02:31:42,316:basehttp:log_message:187:"POST /new-teacher/ HTTP/1.1" 302 0
+INFO:2022-08-25 02:31:42,488:communicator:get_token:141:<Response [200]>
+INFO:2022-08-25 02:31:42,495:communicator:get_teacher:176:<Response [200]>
+INFO:2022-08-25 02:31:42,517:basehttp:log_message:187:"GET /teacher/10/ HTTP/1.1" 200 6993
+INFO:2022-08-25 02:31:50,696:communicator:get_token:141:<Response [200]>
+INFO:2022-08-25 02:31:50,703:communicator:get_teacher:176:<Response [200]>
+INFO:2022-08-25 02:31:50,736:basehttp:handle_error:80:- Broken pipe from ('127.0.0.1', 62477)
+INFO:2022-08-25 02:31:50,744:communicator:get_token:141:<Response [200]>
+INFO:2022-08-25 02:31:50,749:communicator:get_teacher:176:<Response [200]>
+INFO:2022-08-25 02:31:50,757:basehttp:log_message:187:"GET /teacher/10/edit/ HTTP/1.1" 200 6299
+INFO:2022-08-25 02:32:13,219:communicator:get_token:141:<Response [200]>
+INFO:2022-08-25 02:32:13,265:communicator:edit_teacher:243:<Response [200]>
+INFO:2022-08-25 02:32:13,266:basehttp:log_message:187:"POST /teacher/10/edit/ HTTP/1.1" 302 0
+INFO:2022-08-25 02:32:13,438:communicator:get_token:141:<Response [200]>
+INFO:2022-08-25 02:32:13,445:communicator:get_teacher:176:<Response [200]>
+INFO:2022-08-25 02:32:13,446:basehttp:log_message:187:"GET /teacher/10/ HTTP/1.1" 200 6995
+INFO:2022-08-25 02:32:17,582:communicator:get_token:141:<Response [200]>
+INFO:2022-08-25 02:32:17,588:communicator:list_teacher:157:<Response [200]>
+INFO:2022-08-25 02:32:17,589:basehttp:log_message:187:"GET /teacher/ HTTP/1.1" 200 3324
+INFO:2022-08-25 02:32:19,342:communicator:get_token:141:<Response [200]>
+INFO:2022-08-25 02:32:19,348:communicator:get_teacher:176:<Response [200]>
+INFO:2022-08-25 02:32:19,350:basehttp:log_message:187:"GET /teacher/10/ HTTP/1.1" 200 6781
+INFO:2022-08-25 02:32:24,988:communicator:get_token:141:<Response [200]>
+INFO:2022-08-25 02:32:24,994:communicator:get_teacher:176:<Response [200]>
+INFO:2022-08-25 02:32:24,996:basehttp:log_message:187:"GET /teacher/10/ HTTP/1.1" 200 6781
+INFO:2022-08-25 02:32:37,619:communicator:get_token:141:<Response [200]>
+INFO:2022-08-25 02:32:37,625:communicator:get_teacher:176:<Response [200]>
+INFO:2022-08-25 02:32:37,627:basehttp:log_message:187:"GET /teacher/10/ HTTP/1.1" 200 6781
+INFO:2022-08-25 02:32:44,223:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-25 02:32:44,229:communicator:list_student:36:<Response [200]>
+INFO:2022-08-25 02:32:44,231:basehttp:log_message:187:"GET /student/ HTTP/1.1" 200 2823
+INFO:2022-08-25 02:32:49,392:basehttp:log_message:187:"GET /new-student/ HTTP/1.1" 200 6768
+INFO:2022-08-25 02:33:27,524:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-25 02:33:27,613:communicator:create_student:99:<Response [201]>
+INFO:2022-08-25 02:33:27,614:basehttp:log_message:187:"POST /new-student/ HTTP/1.1" 302 0
+INFO:2022-08-25 02:33:27,785:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-25 02:33:27,965:communicator:get_student:55:<Response [200]>
+INFO:2022-08-25 02:33:27,989:basehttp:log_message:187:"GET /student/33/ HTTP/1.1" 200 7374
+INFO:2022-08-25 02:33:30,625:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-25 02:33:30,803:communicator:get_student:55:<Response [200]>
+INFO:2022-08-25 02:33:30,816:basehttp:log_message:187:"GET /student/33/edit/ HTTP/1.1" 200 6948
+INFO:2022-08-25 02:33:36,213:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-25 02:33:36,249:communicator:edit_student:121:<Response [200]>
+INFO:2022-08-25 02:33:36,250:basehttp:log_message:187:"POST /student/33/edit/ HTTP/1.1" 302 0
+INFO:2022-08-25 02:33:36,439:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-25 02:33:36,620:communicator:get_student:55:<Response [200]>
+INFO:2022-08-25 02:33:36,621:basehttp:log_message:187:"GET /student/33/ HTTP/1.1" 200 7384
+INFO:2022-08-25 02:33:38,779:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-25 02:33:38,786:communicator:list_student:36:<Response [200]>
+INFO:2022-08-25 02:33:38,787:basehttp:log_message:187:"GET /student/ HTTP/1.1" 200 3318
+INFO:2022-08-25 02:33:46,021:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-25 02:33:46,198:communicator:get_student:55:<Response [200]>
+INFO:2022-08-25 02:33:46,200:basehttp:log_message:187:"GET /student/33/ HTTP/1.1" 200 7170
+INFO:2022-08-25 02:33:48,394:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-25 02:33:48,400:communicator:list_student:36:<Response [200]>
+INFO:2022-08-25 02:33:48,401:basehttp:log_message:187:"GET /student/ HTTP/1.1" 200 3318
+INFO:2022-08-25 02:33:51,761:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-25 02:33:51,936:communicator:get_student:55:<Response [200]>
+INFO:2022-08-25 02:33:51,938:basehttp:log_message:187:"GET /student/33/ HTTP/1.1" 200 7170
+INFO:2022-08-25 02:34:02,416:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-25 02:34:02,461:communicator:delete_student:76:<Response [204]>
+INFO:2022-08-25 02:34:02,461:basehttp:log_message:187:"GET /student/33/delete/ HTTP/1.1" 302 0
+INFO:2022-08-25 02:34:02,637:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-25 02:34:02,642:communicator:list_student:36:<Response [200]>
+INFO:2022-08-25 02:34:02,644:basehttp:log_message:187:"GET /student/ HTTP/1.1" 200 3030
+INFO:2022-08-25 02:34:08,433:basehttp:log_message:187:"GET / HTTP/1.1" 200 3109
+INFO:2022-08-25 02:34:26,980:basehttp:log_message:187:"GET / HTTP/1.1" 200 3109
+INFO:2022-08-25 02:34:28,471:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-25 02:34:28,477:communicator:list_student:36:<Response [200]>
+INFO:2022-08-25 02:34:28,478:basehttp:log_message:187:"GET /student/ HTTP/1.1" 200 2823
+INFO:2022-08-25 02:37:28,497:basehttp:log_message:187:"GET /logout/ HTTP/1.1" 302 0
+INFO:2022-08-25 02:37:28,505:basehttp:log_message:187:"GET /login/ HTTP/1.1" 200 4031
+WARNING:2022-08-25 02:37:44,622:log:log_response:241:Forbidden (CSRF token from POST incorrect.): /admin/login/
+WARNING:2022-08-25 02:37:44,623:basehttp:log_message:187:"POST /admin/login/?next=/admin/ HTTP/1.1" 403 2518
+INFO:2022-08-25 02:38:02,019:basehttp:log_message:187:"GET /login/ HTTP/1.1" 200 4031
+INFO:2022-08-25 02:38:02,739:basehttp:log_message:187:"GET /login/ HTTP/1.1" 200 4031
+INFO:2022-08-25 02:38:05,765:basehttp:log_message:187:"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+INFO:2022-08-25 02:38:05,929:basehttp:log_message:187:"GET /login/?next=/ HTTP/1.1" 200 4031
+INFO:2022-08-25 02:38:08,700:basehttp:log_message:187:"GET / HTTP/1.1" 302 0
+INFO:2022-08-25 02:38:08,709:basehttp:log_message:187:"GET /login/?next=/ HTTP/1.1" 200 4031
+INFO:2022-08-25 02:38:15,458:basehttp:log_message:187:"GET /login/?next=/ HTTP/1.1" 200 4031
+INFO:2022-08-25 02:38:20,257:basehttp:log_message:187:"GET /admin/ HTTP/1.1" 302 0
+INFO:2022-08-25 02:38:20,264:basehttp:log_message:187:"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+INFO:2022-08-25 02:38:20,323:basehttp:log_message:187:"GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO:2022-08-25 02:38:20,325:basehttp:log_message:187:"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO:2022-08-25 02:38:20,325:basehttp:log_message:187:"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO:2022-08-25 02:38:20,326:basehttp:log_message:187:"GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO:2022-08-25 02:38:20,326:basehttp:log_message:187:"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO:2022-08-25 02:38:20,327:basehttp:log_message:187:"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO:2022-08-25 02:38:20,340:basehttp:log_message:187:"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO:2022-08-25 02:38:20,647:basehttp:log_message:187:"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO:2022-08-25 02:38:20,647:basehttp:log_message:187:"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO:2022-08-25 02:38:24,572:basehttp:log_message:187:"GET /admin/ HTTP/1.1" 302 0
+INFO:2022-08-25 02:38:24,580:basehttp:log_message:187:"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+INFO:2022-08-25 02:38:36,020:basehttp:log_message:187:"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO:2022-08-25 02:38:36,035:basehttp:log_message:187:"GET /admin/ HTTP/1.1" 200 3585
+INFO:2022-08-25 02:38:36,055:basehttp:log_message:187:"GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO:2022-08-25 02:38:36,076:basehttp:log_message:187:"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO:2022-08-25 02:38:36,076:basehttp:log_message:187:"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO:2022-08-25 02:38:36,125:basehttp:log_message:187:"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO:2022-08-25 02:38:39,737:basehttp:log_message:187:"GET /admin/auth/user/ HTTP/1.1" 200 10488
+INFO:2022-08-25 02:38:39,772:basehttp:log_message:187:"GET /static/admin/css/changelists.css HTTP/1.1" 200 6395
+INFO:2022-08-25 02:38:39,776:basehttp:log_message:187:"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO:2022-08-25 02:38:39,777:basehttp:log_message:187:"GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO:2022-08-25 02:38:39,778:basehttp:log_message:187:"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8919
+INFO:2022-08-25 02:38:39,780:basehttp:log_message:187:"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO:2022-08-25 02:38:39,785:basehttp:log_message:187:"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO:2022-08-25 02:38:39,785:basehttp:log_message:187:"GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO:2022-08-25 02:38:39,789:basehttp:log_message:187:"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO:2022-08-25 02:38:39,791:basehttp:log_message:187:"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO:2022-08-25 02:38:39,792:basehttp:log_message:187:"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+INFO:2022-08-25 02:38:39,796:basehttp:log_message:187:"GET /static/admin/js/filters.js HTTP/1.1" 200 966
+INFO:2022-08-25 02:38:39,800:basehttp:log_message:187:"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO:2022-08-25 02:38:39,805:basehttp:log_message:187:"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO:2022-08-25 02:38:39,810:basehttp:log_message:187:"GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO:2022-08-25 02:38:39,814:basehttp:log_message:187:"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO:2022-08-25 02:38:39,815:basehttp:log_message:187:"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO:2022-08-25 02:39:06,211:basehttp:log_message:187:"POST /admin/auth/user/ HTTP/1.1" 200 5338
+INFO:2022-08-25 02:39:06,229:basehttp:log_message:187:"GET /static/admin/js/cancel.js HTTP/1.1" 200 884
+INFO:2022-08-25 02:39:08,931:basehttp:log_message:187:"POST /admin/auth/user/ HTTP/1.1" 302 0
+INFO:2022-08-25 02:39:08,945:basehttp:log_message:187:"GET /admin/auth/user/ HTTP/1.1" 200 8990
+INFO:2022-08-25 02:39:08,976:basehttp:log_message:187:"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO:2022-08-25 12:02:05,550:autoreload:trigger_reload:266:F:\Projects\Personal\Try\DjangoLearning\webapp\webapp\School_management_system\School_management_system\settings.py changed, reloading.
+INFO:2022-08-25 12:02:06,306:autoreload:run_with_reloader:677:Watching for file changes with StatReloader
+INFO:2022-08-25 12:02:19,780:basehttp:log_message:187:"GET / HTTP/1.1" 200 3109
+INFO:2022-08-25 12:02:19,842:basehttp:log_message:187:"GET /static/school/base.js HTTP/1.1" 304 0
+INFO:2022-08-25 12:02:19,843:basehttp:log_message:187:"GET /static/school/base.css HTTP/1.1" 304 0
+INFO:2022-08-25 12:02:19,866:basehttp:log_message:187:"GET /static/school/default_pic.jpg HTTP/1.1" 304 0
+INFO:2022-08-25 12:02:21,924:basehttp:log_message:187:"GET /logout/ HTTP/1.1" 302 0
+INFO:2022-08-25 12:02:21,955:basehttp:log_message:187:"GET /login/ HTTP/1.1" 200 4031
+INFO:2022-08-25 12:02:23,771:basehttp:log_message:187:"GET /register/ HTTP/1.1" 200 4524
+INFO:2022-08-25 12:02:48,969:trigger_email:trigger_email:32:activation email response: 1
+INFO:2022-08-25 12:02:48,970:basehttp:log_message:187:"POST /register/ HTTP/1.1" 302 0
+INFO:2022-08-25 12:02:48,979:basehttp:log_message:187:"GET /login/ HTTP/1.1" 200 4287
+INFO:2022-08-25 12:03:29,098:basehttp:log_message:187:"GET /account-activation/MTg/bapo4h-dfe546fa9d3030fb93ecb1d7b4cc7f28 HTTP/1.1" 200 70
+WARNING:2022-08-25 12:03:29,270:log:log_response:241:Not Found: /favicon.ico
+WARNING:2022-08-25 12:03:29,271:basehttp:log_message:187:"GET /favicon.ico HTTP/1.1" 404 5690
+INFO:2022-08-25 12:03:45,666:basehttp:log_message:187:"POST /login/ HTTP/1.1" 302 0
+INFO:2022-08-25 12:03:45,675:basehttp:log_message:187:"GET / HTTP/1.1" 200 3109
+INFO:2022-08-25 12:03:48,043:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-25 12:03:48,049:communicator:list_student:36:<Response [200]>
+INFO:2022-08-25 12:03:48,052:basehttp:log_message:187:"GET /student/ HTTP/1.1" 200 2823
+INFO:2022-08-25 12:03:49,602:basehttp:log_message:187:"GET /login/ HTTP/1.1" 200 3956
+INFO:2022-08-25 16:09:52,206:basehttp:log_message:187:"GET / HTTP/1.1" 200 3109
+INFO:2022-08-25 16:09:52,264:basehttp:log_message:187:"GET /static/school/base.js HTTP/1.1" 304 0
+INFO:2022-08-25 16:09:52,265:basehttp:log_message:187:"GET /static/school/base.css HTTP/1.1" 304 0
+INFO:2022-08-25 16:09:59,315:basehttp:log_message:187:"GET /logout/ HTTP/1.1" 302 0
+INFO:2022-08-25 16:09:59,348:basehttp:log_message:187:"GET /login/ HTTP/1.1" 200 4031
+INFO:2022-08-25 16:17:53,787:basehttp:log_message:187:"POST /login/ HTTP/1.1" 302 0
+INFO:2022-08-25 16:17:53,797:basehttp:log_message:187:"GET / HTTP/1.1" 200 3109
+INFO:2022-08-25 16:17:54,883:communicator:get_token:141:<Response [200]>
+INFO:2022-08-25 16:17:54,911:communicator:list_teacher:157:<Response [200]>
+INFO:2022-08-25 16:17:54,939:basehttp:log_message:187:"GET /teacher/ HTTP/1.1" 200 3324
+INFO:2022-08-25 16:19:43,310:basehttp:log_message:187:"GET /new-teacher/ HTTP/1.1" 200 6115
+INFO:2022-08-25 16:31:16,139:communicator:get_token:19:Student auth response: <Response [200]>
+INFO:2022-08-25 16:31:16,146:communicator:list_student:36:<Response [200]>
+INFO:2022-08-25 16:31:16,147:basehttp:log_message:187:"GET /student/ HTTP/1.1" 200 2823
+INFO:2022-08-25 16:31:16,877:communicator:get_token:141:<Response [200]>
+INFO:2022-08-25 16:31:16,883:communicator:list_teacher:157:<Response [200]>
+INFO:2022-08-25 16:31:16,885:basehttp:log_message:187:"GET /teacher/ HTTP/1.1" 200 3324
+INFO:2022-08-25 16:31:38,453:communicator:get_token:141:<Response [200]>
+INFO:2022-08-25 16:31:38,459:communicator:get_teacher:176:<Response [200]>
+INFO:2022-08-25 16:31:38,462:basehttp:log_message:187:"GET /teacher/10/ HTTP/1.1" 200 6781
+INFO:2022-08-25 18:16:05,972:basehttp:log_message:187:"GET / HTTP/1.1" 200 3109
+INFO:2022-08-25 18:16:08,053:basehttp:log_message:187:"GET /logout/ HTTP/1.1" 302 0
+INFO:2022-08-25 18:16:08,068:basehttp:log_message:187:"GET /login/ HTTP/1.1" 200 4031
+INFO:2022-08-25 18:16:42,971:basehttp:log_message:187:"GET /student/ HTTP/1.1" 302 0
+INFO:2022-08-25 18:16:42,981:basehttp:log_message:187:"GET /login/?next=/student/ HTTP/1.1" 200 4031
+INFO:2022-08-25 18:16:43,444:basehttp:log_message:187:"GET /teacher/ HTTP/1.1" 302 0
+INFO:2022-08-25 18:16:43,452:basehttp:log_message:187:"GET /login/?next=/teacher/ HTTP/1.1" 200 4031
+INFO:2022-08-25 18:16:44,122:basehttp:log_message:187:"GET / HTTP/1.1" 302 0
+INFO:2022-08-25 18:16:44,136:basehttp:log_message:187:"GET /login/?next=/ HTTP/1.1" 200 4031
+INFO:2022-08-25 18:16:48,494:basehttp:log_message:187:"GET / HTTP/1.1" 302 0
+INFO:2022-08-25 18:16:48,503:basehttp:log_message:187:"GET /login/?next=/ HTTP/1.1" 200 4031
+INFO:2022-08-26 02:25:46,133:basehttp:log_message:187:"GET / HTTP/1.1" 302 0
+INFO:2022-08-26 02:25:46,147:basehttp:log_message:187:"GET /login/?next=/ HTTP/1.1" 200 4031
+INFO:2022-08-26 02:25:46,228:basehttp:log_message:187:"GET /static/school/base.js HTTP/1.1" 304 0
+INFO:2022-08-26 02:25:46,228:basehttp:log_message:187:"GET /static/school/base.css HTTP/1.1" 304 0
+INFO:2022-08-26 02:25:46,831:basehttp:log_message:187:"GET /login/?next=/ HTTP/1.1" 200 4031
+INFO:2022-08-26 02:25:56,202:basehttp:log_message:187:"GET /admin/ HTTP/1.1" 302 0
+INFO:2022-08-26 02:25:56,333:basehttp:log_message:187:"GET /admin/login/?next=/admin/ HTTP/1.1" 200 2218
+INFO:2022-08-26 02:25:56,405:basehttp:log_message:187:"GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO:2022-08-26 02:25:56,405:basehttp:log_message:187:"GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO:2022-08-26 02:25:56,405:basehttp:log_message:187:"GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO:2022-08-26 02:25:56,405:basehttp:log_message:187:"GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO:2022-08-26 02:25:56,405:basehttp:log_message:187:"GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO:2022-08-26 02:25:56,421:basehttp:log_message:187:"GET /static/admin/css/fonts.css HTTP/1.1" 304 0
+INFO:2022-08-26 02:25:56,425:basehttp:log_message:187:"GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO:2022-08-26 02:25:56,452:basehttp:log_message:187:"GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 304 0
+INFO:2022-08-26 02:25:56,453:basehttp:log_message:187:"GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 304 0
+INFO:2022-08-26 02:25:58,793:basehttp:log_message:187:"POST /admin/login/?next=/admin/ HTTP/1.1" 200 2382
+INFO:2022-08-26 02:25:58,884:basehttp:log_message:187:"GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 304 0
+INFO:2022-08-26 02:26:15,992:basehttp:log_message:187:"POST /admin/login/?next=/admin/ HTTP/1.1" 200 2384
+INFO:2022-08-26 02:26:23,357:basehttp:log_message:187:"POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO:2022-08-26 02:26:23,399:basehttp:log_message:187:"GET /admin/ HTTP/1.1" 200 6004
+INFO:2022-08-26 02:26:23,598:basehttp:log_message:187:"GET /static/admin/css/dashboard.css HTTP/1.1" 200 380
+INFO:2022-08-26 02:26:23,608:basehttp:log_message:187:"GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO:2022-08-26 02:26:23,608:basehttp:log_message:187:"GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO:2022-08-26 02:26:23,609:basehttp:log_message:187:"GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO:2022-08-26 02:26:37,436:basehttp:log_message:187:"GET /admin/auth/user/ HTTP/1.1" 200 9261
+INFO:2022-08-26 02:26:37,503:basehttp:log_message:187:"GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO:2022-08-26 02:26:37,505:basehttp:log_message:187:"GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO:2022-08-26 02:26:37,508:basehttp:log_message:187:"GET /static/admin/js/core.js HTTP/1.1" 200 5698
+INFO:2022-08-26 02:26:37,511:basehttp:log_message:187:"GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8919
+INFO:2022-08-26 02:26:37,512:basehttp:log_message:187:"GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+INFO:2022-08-26 02:26:37,514:basehttp:log_message:187:"GET /static/admin/js/urlify.js HTTP/1.1" 200 7902
+INFO:2022-08-26 02:26:37,517:basehttp:log_message:187:"GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO:2022-08-26 02:26:37,525:basehttp:log_message:187:"GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 288580
+INFO:2022-08-26 02:26:37,525:basehttp:log_message:187:"GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+INFO:2022-08-26 02:26:37,535:basehttp:log_message:187:"GET /admin/jsi18n/ HTTP/1.1" 200 3343
+INFO:2022-08-26 02:26:37,537:basehttp:log_message:187:"GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO:2022-08-26 02:26:37,545:basehttp:log_message:187:"GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO:2022-08-26 02:26:37,557:basehttp:log_message:187:"GET /static/admin/img/icon-yes.svg HTTP/1.1" 304 0
+INFO:2022-08-26 02:26:37,558:basehttp:log_message:187:"GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+INFO:2022-08-26 02:26:37,562:basehttp:log_message:187:"GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO:2022-08-26 02:26:37,563:basehttp:log_message:187:"GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097

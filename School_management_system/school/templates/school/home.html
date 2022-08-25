@@ -1,0 +1,17 @@
+{% extends "school/base.html" %}
+{% load static %}
+{% block content %}
+
+
+<div class="row" style="margin-top: 3rem;">
+  <div class="col-md col-sm m-3 mt-5 p-3 div-section" style="text-align: center;">
+    <a href="{% url 'student' %}"><img src="{% static 'school/default_pic.jpg' %}" alt="Student" class="home-pic"></a>
+    <h4 class="text-muted mt-2">Student</h4>
+  </div>
+  <div class="col-md col-sm m-3 mt-5 p-3 div-section" style="text-align: center;">
+    <a href="{% url 'teacher' %}"><img src="{% static 'school/default_pic.jpg' %}" alt="Teacher" class="home-pic"></a>
+    <h4 class="text-muted mt-2">Teacher</h4>
+  </div>
+</div>
+
+{% endblock content %}

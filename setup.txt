@@ -1,0 +1,38 @@
+Setup instructions
+
+
+1)	Install Python version 3.10.5 (and other python related dependencies like pip, add to path, etc)
+2)	Download and extract the code to local folder
+3)	Open command prompt
+4)	Navigate to student_api folder like below (example),                                                        cd C:\Users\Gokul\tttttt\webapp\student_api\
+5)	Create virtual environment with command - python -m venv .venv
+6)	Activate with command - .venv\Scripts\activate
+7)	Install packages - pip install -r requirements.txt
+8)	Start the server - python manage.py runserver 8001
+
+Now open another command prompt and go to teacher api, and repeat remaining steps and use 8002 port to start server
+
+cd C:\Users\Gokul\tttttt\webapp\teacher_api\
+9)	Create virtual environment with command - python -m venv .venv
+10)	Activate with command - .venv\Scripts\activate
+11)	Install packages - pip install -r requirements.txt
+12)	Start the server - python manage.py runserver 8002
+
+Now open another command prompt and go to school application, and repeat remaining steps and use 8000 port to start server
+
+cd C:\Users\Gokul\tttttt\webapp\School_management_system
+13)	Create virtual environment with command - python -m venv .venv
+14)	Activate with command - .venv\Scripts\activate
+15)	Install packages - pip install -r requirements.txt
+16)	Open settings.py file and update your email app password in below line
+
+AS IS: EMAIL_HOST_PASSWORD = os.environ.get("app_pwd")
+TO BE: EMAIL_HOST_PASSWORD = “your_gmail_app_password”
+
+Refer: https://support.google.com/mail/answer/185833?hl=en to create gmail app password
+
+17)	Start the server - python manage.py runserver 8000
+
+Use application in http://127.0.0.1:8000/
+
+

@@ -1,0 +1,16 @@
+{% extends "school/base.html" %}
+{% load crispy_forms_tags %}
+{% load static %}
+{% block content %}
+<form method="POST" enctype="multipart/form-data" class="div-section mb-5">
+	{% csrf_token %}
+	<fieldset class="form-group">
+		<legend class="border-bottom mb-4">New Teacher</legend>
+		{{ form | crispy }}
+	</fieldset>
+	<div class="form-group">
+		<button class="btn btn-outline-success" type="submit">Create</button>
+	</div>
+</form>
+
+{% endblock content %}

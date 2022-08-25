@@ -1,0 +1,125 @@
+{% extends "school/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+<h4 class="text-muted">Teacher Detail <span class="float-right"><a class="btn btn-success btn-sm"
+            href="{% url 'teacher-create' %}">Create New</a></span></h4>
+<hr>
+
+<div class="div-section">
+    <div class="row">
+        <div class="col-md-4">
+            <div>
+                <label for="name"><b>Name:</b></label><br>
+                <p class="text-muted">{{context.name}}</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div>
+                <label for="dob"><b>Date of Birth:</b></label><br>
+                <p class="text-muted">{{context.dob}}</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div>
+                <label for="gender"><b>Gender:</b></label><br>
+                <p class="text-muted">{{context.gender}}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div>
+                <label for="phone-number"><b>Phone number:</b></label><br>
+                <p class="text-muted">{{context.phone_number}}</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div>
+                <label for="email"><b>Email ID:</b></label><br>
+                <p class="text-muted">{{context.email}}</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div>
+                <label for="subject"><b>Subject:</b></label><br>
+                <p class="text-muted">{{context.subject}}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div>
+                <label for="previous-organization"><b>Previous organization:</b></label><br>
+                <p class="text-muted">{{context.previous_organization}}</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div>
+                <label for="salary"><b>Salary:</b></label><br>
+                <p class="text-muted">Rs. {{context.salary}}</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div>
+                <label for="date-of-joining"><b>Date of Joining:</b></label><br>
+                <p class="text-muted">{{context.date_of_joining}}</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div>
+                <label for="address"><b>Address:</b></label><br>
+                <p class="text-muted">{{context.address}}</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div></div>
+        </div>
+        <div class="col-md-4">
+            <div></div>
+        </div>
+    </div>
+    <div class="row m-3" style="text-align: center;">
+        <div class="col-2"></div>
+        <div class="col-8">
+            <a class="btn btn-outline-success btn-sm mr-3" type="submit" style="width: 70px;"
+                href="{% url 'teacher-edit' context.id %}">Edit</a>
+            <button class="btn btn-outline-danger btn-sm" type="submit" data-toggle="modal" data-target="#exampleModal"
+                style="width: 70px;">Delete</button>
+        </div>
+        <div class="col-2"></div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<form method="POST">
+    {% csrf_token %}
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Delete?</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Are you sure want to delete Teacher <b>{{context.name}}</b>?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success btn-sm" data-dismiss="modal">Cancel</button>
+                    <a class="btn btn-danger btn-sm" href="{% url 'teacher-delete' context.id %}">Delete</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+{% endblock content %}

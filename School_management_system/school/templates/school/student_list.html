@@ -1,0 +1,43 @@
+{% extends "school/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+<h4 class="text-muted">Student list <span class="float-right"><a class="btn btn-success btn-sm"
+            href="{% url 'student-create'  %}">Create New</a></span></h4>
+<hr>
+
+{% if context %}
+
+<div class="div-section mb-5">
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">DOB</th>
+                <th scope="col">Gender</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            {% for student in context %}
+            <tr>
+                <td>{{student.id}}</td>
+                <td><a href="{% url 'student-detail' student.id %}">{{student.name}}</a></td>
+                <td>{{student.dob}}</td>
+                <td>{{student.gender}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% else %}
+
+<div class="div-section no-record">
+    <span>No records found!</span>
+</div>
+
+{% endif %}
+
+{% endblock content %}

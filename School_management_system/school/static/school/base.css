@@ -1,0 +1,51 @@
+html {
+    height: 100%;
+}
+
+body {
+	margin-top: 5rem;
+	min-height: 100%;
+	background-color: #f0f0f0;
+	margin-bottom: 10rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.nav-bg-custom {
+	background-color: #181a19;
+}
+
+.div-section {
+	background-color: #ffffff;
+	border: 1px solid #bdbdbd;
+	padding-top: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 10px; 
+	overflow-wrap: break-word;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	border-radius: 10px;
+	
+}
+
+.home-pic {
+		height: 170px;
+		width: 150px;
+		border-radius: 30px;
+}
+
+.home-category {
+	border: 1px solid #bdbdbd;
+	text-align: center;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	border-radius: 10px;
+}
+
+.no-record {
+	min-height: 100px; 
+	text-align: center; 
+	padding-top: 30px;
+	font-size: 20px; 
+	text-align: center; 
+	font-family: 'Times New Roman', Times, serif;
+}

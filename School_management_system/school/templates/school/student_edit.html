@@ -1,0 +1,16 @@
+{% extends "school/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+<form method="POST" enctype="multipart/form-data" class="div-section">
+	{% csrf_token %}
+	<fieldset class="form-group">
+		<legend class="border-bottom mb-4">Edit Student</legend>
+		{{ edit_form | crispy }}
+	</fieldset>
+	<div class="form-group">
+		<button class="btn btn-outline-success btn-sm" type="submit">Edit Student</button>
+	</div>
+</form>
+
+{% endblock content %}
